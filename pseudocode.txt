@@ -1,0 +1,17 @@
+# Author: Nthabiseng Maya
+
+BEGIN
+   INPUT student_marks
+
+ IF student_marks >= 0 AND student_marks <= 100
+   IF student_marks >= 50
+       DISPLAY
+              "PASS"
+ ELSE
+     DISPLAY
+            "FAIL"
+ ELSE 
+     DISPLAY 
+            "INVALID, the student_marks must be between 0 and 100"
+ENDIF
+END
